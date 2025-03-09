@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halaman Beranda</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Raditya Alfareza Purnama Putra"><!-- ubah dengan nama anda -->
+    <meta name="nim" content="244311054"><!-- ubah dengan nim anda -->
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        
+        nav {
+            float: left;
+            width: 30%;
+            background: #ccc;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            
+        }
+        
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        </style>
+        
+</head>
+<body>
+    <header>
+        <h2>Judul Website</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gambar.html">Gambar</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="svg.html">SVG</a></li>
+                <li><a href="canvas.html">Canvas</a></li>
+            </ul>
+            
+        </nav>
+
+        <article>
+            <h1>Gambar Pemandangan</h1>
+            <img width="30%" src="gambar/gambar1.jpg" alt="gambar pemandangan1" />
+
+            <img width="30%" src="gambar/gambar2.jpg" alt="gambar pemandangan2" />
+    
+            <img width="30%" src="gambar/gambar3.jpg" alt="gambar pemandangan3" />
+    
+            <img width="30%" src="gambar/gambar4.jpg" alt="gambar pemandangan4"/>
+    
+            <img width="30%" src="gambar/gambar5.jpg" alt="gambar pemandangan5" />
+    
+            <img width="30%" src="gambar/gambar6.jpg" alt="gambar pemandangan6"/>
+    
+
+            <p>Kode tersebut menggunakan HTML untuk menampilkan enam gambar pemandangan. Pertama, judul "Gambar Pemandangan" ditampilkan menggunakan tag h1. Kemudian, enam tag img digunakan untuk menyematkan gambar-gambar tersebut, masing-masing dengan lebar 30% dan sumber dari folder bernama "gambar". Tag alt pada setiap gambar memberikan deskripsi alternatif jika gambar tidak dapat dimuat.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p><i>copyright@RadityaAlfarezaPurnamaPutra_2443110542025</p> 
+    </footer>
+
+</body>
+</html>
